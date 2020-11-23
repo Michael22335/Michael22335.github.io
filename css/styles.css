@@ -285,6 +285,61 @@ video {
   grid-row: span 1;
 }
 
+/* styles for embedded shop page */
+
+.shop-page{
+  padding: 2rem 1rem 10rem 1rem;
+}
+
+.shop-page h1{
+  font-size: 3rem;
+  line-height: 3rem;
+
+}
+
+.shop-page .text-box{
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+.shop-box{
+  width: 266px;
+  margin: 0 auto;
+}
+
+.shop-box iframe{
+  width: 100%;
+  height: 1861px; /* 8 items tall */
+}
+
+@media (min-width: 506px) {
+  .shop-box{
+    width: 506px;
+  }
+  .shop-box iframe{
+    height: 930px; /*4 items tall */
+  }
+
+}
+
+@media (min-width: 746px) {
+  .shop-box{
+    width: 746px;
+  }
+  .shop-box iframe{
+    height: 740px; /* 3 items tall */
+  }
+}
+
+@media (min-width: 986px) {
+  .shop-box{
+    width: 986px;
+  }
+  .shop-box iframe{
+    height: 600px; /* 2 items tall */
+  }
+}
+
 /* Footer Nav Extra Sytles */
 .footer-logo {
   white-space: nowrap;
