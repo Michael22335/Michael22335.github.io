@@ -312,6 +312,8 @@ video {
   height: 1861px; /* 8 items tall */
 }
 
+
+
 @media (min-width: 506px) {
   .shop-box{
     width: 506px;
