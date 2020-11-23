@@ -4,12 +4,14 @@ html {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
+  color: rgb(0, 0, 0);
 }
 
 body {
   margin: 0 auto;
   padding: 0;
   min-height: 100%;
+  background-color: rgb(250, 250, 250);
 }
 
 *,
@@ -33,7 +35,7 @@ video {
   align-items: center;
   line-height: 1rem;
   overflow: hidden;
-  background-color: #fff;
+  background-color: rgb(39, 39, 39);
 }
 
 .logo,
@@ -62,6 +64,7 @@ video {
 
 .social-nav-item {
   flex: 1 1 10%;
+  height: 2.9rem;
 }
 
 .logo a,
@@ -70,7 +73,7 @@ video {
   text-decoration: none;
   letter-spacing: 0.2rem;
   padding: 0.8rem;
-  color: #000;
+  color: white;
 }
 
 .logo a {
@@ -102,7 +105,7 @@ video {
 
 .hero-nav .logo a,
 .hero-nav .nav-menu a {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .hero-nav .nav-menu a:hover {
@@ -219,6 +222,7 @@ video {
   line-height: 2rem;
 }
 
+
 .about-image img {
   height: 100%;
   object-fit: cover;
@@ -230,7 +234,7 @@ video {
 }
 
 .about-social a {
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 0 1rem 1rem 1rem;
 }
 
@@ -287,55 +291,53 @@ video {
 
 /* styles for embedded shop page */
 
-.shop-page{
+.shop-page {
   padding: 2rem 1rem 10rem 1rem;
 }
 
-.shop-page h1{
+.shop-page h1 {
   font-size: 2rem;
   line-height: 2rem;
-
 }
 
-.shop-page .text-box{
+.shop-page .text-box {
   max-width: 80ch;
   margin: 0 auto;
 }
 
-.shop-box{
+.shop-box {
   width: 266px;
   margin: 0 auto;
 }
 
-.shop-box iframe{
+.shop-box iframe {
   width: 100%;
   height: 1861px; /* 8 items tall */
 }
 
 @media (min-width: 506px) {
-  .shop-box{
+  .shop-box {
     width: 506px;
   }
-  .shop-box iframe{
+  .shop-box iframe {
     height: 930px; /*4 items tall */
   }
-
 }
 
 @media (min-width: 746px) {
-  .shop-box{
+  .shop-box {
     width: 746px;
   }
-  .shop-box iframe{
+  .shop-box iframe {
     height: 740px; /* 3 items tall */
   }
 }
 
 @media (min-width: 986px) {
-  .shop-box{
+  .shop-box {
     width: 986px;
   }
-  .shop-box iframe{
+  .shop-box iframe {
     height: 600px; /* 2 items tall */
   }
 }
@@ -403,8 +405,6 @@ video {
     line-height: 1.5rem;
   }
 
- 
-
   /* Grid column and row spans for wider screens */
   .w-1 {
     grid-column: span 1;
@@ -453,15 +453,14 @@ video {
     flex-basis: 100%;
   }
 
-  .shop-page p{
+  .shop-page p {
     font-size: 1.3rem;
-    line-height: 1.7rem ;
+    line-height: 1.7rem;
   }
 
-  .shop-page h1{
+  .shop-page h1 {
     font-size: 3rem;
     line-height: 3rem;
-  
   }
 }
 
