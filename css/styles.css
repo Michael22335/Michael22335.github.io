@@ -84,12 +84,12 @@ video {
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid #fff;
+  border: 1px solid rgb(39, 39, 39);
   transition: all ease 0.1s;
 }
 
 .nav-menu a:hover {
-  border-bottom: 1px solid #000;
+  border: 1px solid rgb(255, 255, 255);
 }
 
 /* Hero Header Navbar Changes */
